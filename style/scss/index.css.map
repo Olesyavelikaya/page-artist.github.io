@@ -1,0 +1,55 @@
+@media screen and (min-width: 1240px) {
+    .mw-1200 {
+      width: 1200px;
+    }
+    .background {
+      padding: 200px 0;
+      display: flex;
+      justify-content: center;
+    }
+  
+    .header__top {
+      display: flex;
+    }
+  
+    .header__logo {
+      margin-right: 90px;
+      display: flex;
+    }
+  
+    .header__menu {
+      display: flex;
+      flex-direction: row;
+      gap: 24px;
+    }
+  
+    .header__search {
+      margin-left: auto;
+      display: flex;
+    }
+  
+    .search {
+      height: 25px;
+      width: 248px;
+    }
+  
+    .section__banner_text {
+      margin-bottom: 31px;
+    }
+  
+    .form__inpute {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+  
+    .form__inpute_right,
+    .form__inpute_left {
+      min-width: 273px;
+    }
+  
+    .header__btn {
+      width: 570px;
+      height: 57px;
+    }
+  }

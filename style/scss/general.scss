@@ -1,0 +1,135 @@
+@import "variables";
+@import "index";
+@import "index-mobile";
+
+@font-face {
+    font-family: "Roberto-Regular";
+    src: url(//fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Roberto-Medium";
+    src: url(../fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Roberto-Bold";
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+
+@mixin background-banner {
+    background-image: url('..//src/images/banner.png');
+    background-position: center;
+    background-size: cover;
+}
+
+@media screen and (min-width:1240px) {
+    h1, h2 {
+font-weight: bold;
+text-transform: uppercase;
+    }
+
+    h1 {
+        font-size: 60px;
+        line-height: 90px; 
+        color: $white;   
+    }
+
+    h2 {
+        font-size: 38px;
+        line-height: 57px;
+    }   
+}
+
+@media screen and (max-width: 1239px) {
+    h1, h2 {
+        font-weight: bold;
+        text-transform: uppercase;
+            }
+        
+     h1 {
+        font-size: 30px;
+        line-height: 45px; 
+        color: $white;   
+            }
+        
+    h2 {
+        font-size: 18px;
+        line-height: 27px;
+            }   
+}
+
+body {
+    font-family: "Roboto-Regular";
+    line-height: 1.5;
+    color: $dark-gray;
+    background-color: $black ;
+}
+
+.background {
+    @include background-banner
+}
+
+.header__top{
+    position: absolute;
+    top: 25px;
+
+  .header__logo {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+
+    &.header__logo_foto {
+        width: 24px;
+        height: 24px;
+    }
+}  
+.header__text {
+    font-size: 11px;
+}
+}
+
+.search {
+    border: 1px solid var(--dark);
+    border-radius: 50px;
+
+    background: var(--dark);
+}
+
+.section__banner {
+    text-align: center;
+}
+
+.form__inpute_right,
+.form__inpute_left {
+    border: 2px solid var(--dark-gray);
+    border-radius: 3px;
+    background: transparent;
+    
+    min-height: 50px;
+
+    padding-left: 20px;
+    margin-bottom: 1.5em;
+
+    &::placeholder {
+        color: $white;
+    }
+}
+
+.header__btn{
+    padding: 20px 30px;
+
+    border: 1px solid var(--green);
+    border-radius: 5px;
+
+    background-color: var(--green);
+    color: $white;
+   
+}
+
+
+
+
+
+
+ 

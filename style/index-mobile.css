@@ -1,0 +1,140 @@
+@media screen and (max-width: 1239px) {
+  .mw-1200 {
+    padding: 0px 20px;
+  }
+
+  .container {
+    padding-top: 100px;
+  }
+
+  .header__top {
+    width: calc(100% - 40px);
+  }
+
+  .header__menu {
+    margin: 18px 0;
+  }
+
+  .header__text_top {
+    margin-top: 5px;
+  }
+
+  .search {
+    width: calc(100% - 10px);
+    height: 25px;
+  }
+
+  .section__banner {
+    padding-top: 250px;
+    padding-bottom: 200px;
+  }
+
+  .section__banner_text {
+    margin: 16px 0px;
+  }
+
+  .form__inpute {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form__inpute .form__inpute_right {
+    width: calc(100% - 20px);
+  }
+
+  .form__inpute .form__inpute_left {
+    width: calc(100% - 20px);
+  }
+
+  .header__btn {
+    width: calc(100% - 20px);
+    height: 57px;
+  }
+
+  .section__subscribe {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .card__shape {
+    margin-bottom: 45px;
+  }
+
+  .card__background_card1,
+  .card__background_card2,
+  .card__background_card3 {
+    width: 100%;
+    height: 621px;
+    background-size: cover;
+  }
+
+  .section__text > h4 {
+    margin-bottom: 16px;
+  }
+
+  .img_new {
+    height: 186px;
+    width: 100%;
+  }
+
+  .section__column_info {
+    margin-top: 48px;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .img_news {
+    width: 100%;
+  }
+
+  .img_app {
+    width: 100%;
+  }
+
+  .footer__aboutus,
+  .footer__support,
+  .footer__contacts,
+  .footer__social {
+    margin-bottom: 30px;
+  }
+
+  .footer__bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    padding-bottom: 47px;
+  }
+
+  .footer__line {
+    margin-top: 75px;
+  }
+
+  .section__banner_artist {
+    padding-top: 250px;
+    padding-bottom: 200px;
+  }
+
+  .header__button {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .img__album {
+    width: 137px;
+    height: 137px;
+
+    margin-bottom: 18px;
+  }
+
+  .text_flex {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section__padding {
+    padding-top: 100px;
+  }
+}

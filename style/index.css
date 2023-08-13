@@ -1,0 +1,162 @@
+@media screen and (min-width: 1240px) {
+  
+  .mw-1200 {
+    width: 1200px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 100px;
+  }
+
+  .bg {
+    padding: 200px 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .header__top {
+    display: flex;
+    width: 1200px;
+  }
+
+  .header__logo {
+    margin-right: 90px;
+    display: flex;
+  }
+
+  .header__menu {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+  }
+
+  .header__search {
+    margin-left: auto;
+    display: flex;
+  }
+
+  .search {
+    height: 25px;
+    width: 248px;
+  }
+
+  .section__banner_text {
+    margin-bottom: 31px;
+  }
+
+  .form__inpute {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .form__inpute_right,
+  .form__inpute_left {
+    min-width: 273px;
+  }
+
+  .header__btn {
+    width: 570px;
+    height: 57px;
+  }
+
+  .card__price {
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+  }
+
+  .card__background_card1,
+  .card__background_card2,
+  .card__background_card3 {
+    width: 368.2px;
+    height: 615px;
+  }
+
+  .section__footer_text {
+   margin-top: 30px;
+
+   font-size: 16px;
+   line-height: 24px;
+  }
+
+  .section__column_news {
+    display: flex;
+    justify-content: space-between;
+    gap: 48px;
+  }
+
+  .column_reverse {
+    flex-direction: row-reverse;
+  }
+  
+  .section__column_img {
+    flex-basis: 50%;
+  }
+
+  .section__column_info {
+    flex-basis: 50%;
+    text-align: start;
+  }
+
+  .section__text > h4 {
+    margin-bottom: 30px;
+  }
+
+  .img_app {
+    width: 333px;
+    height: 278px;
+  }
+
+  .footer__container,
+  .footer__bottom_container {
+    display: flex;
+    justify-content: center;
+    text-align: start;
+  }
+
+  .footer__flex {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer__line {
+    margin-top: 73px;
+  }
+
+  .footer__bottom_container {
+    padding-bottom: 49px;
+  }
+
+  .footer__bottom {
+    display: flex;
+    gap: 16px;
+  }
+
+
+  /* artist */
+  .bg_artist {
+    display: flex;
+  justify-content: center;
+  }
+
+  .section__popular-track {
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+    column-gap: 50px;
+  }
+
+  .img__album {
+    width: 250px;
+    height: 250px;
+
+    margin-bottom: 18px;
+  }
+
+  .section__padding {
+    padding: 100px 0px;
+  }
+}
